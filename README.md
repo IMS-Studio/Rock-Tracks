@@ -24,7 +24,4 @@ In our scenario, I think the following improvements can be made
 3. If we can request the data from API, we can use fetch for that purpose instead of file storing
 4. We can store user's data
 
-<a href="https://scan.coverity.com/projects/ims-studio-rock-trades">
-  <img alt="Coverity Scan Build Status"
-       src="https://scan.coverity.com/projects/22646/badge.svg"/>
 </a>
