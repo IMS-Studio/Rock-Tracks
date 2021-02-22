@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+
+/* Common */
+.container {
+  background: #f7f7f7;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* Screen: Music Listings */
+.header {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #dedede;
+}
+
+.list-container {
+  width: 70%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 170px;
+  padding-bottom: 20px;
+}
+
+.backgrounImg {
+  background-size: contain;
+  background-position: top;
+  background: cover;
+}
+
+.button {
+  border: none;
+  background: #3f87e4;
+  color: white;
+  padding: 30;
+  border-radius: 8px;
+  padding: 8px 20px;
+  margin-left: 20px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.artist-name {
+  font-size: 12px;
+}
+
+.list-item {
+  background-color: white;
+  align-items: center;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+  height: 90px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.list-item img {
+  border-radius: 50px;
+  margin-right: 30px;
+  width: 45px;
+  height: 45px;
+}
+
+.list-item .info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+/* Screen: Music Detail */
+.music-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.music-detail .detail-header {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+}
+
+.music-detail .detail-header .title-container > * {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.music-detail .detail-header .title-container h1 {
+  font-size: 32px;
+}
+
+.title-container h6 {
+  font-size: 16px;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 50px 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer > div:nth-child(2) {
+  text-align: right;
+}
+
+.footer > div:nth-child(2) p {
+  margin-right: 3px;
+}
+
+.footer > div:nth-child(2) button {
+  margin-top: 20px;
+}
+
+.footer .track-title-container {
+  margin-bottom: 40px;
+}
+
+.footer .stats-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .stats-container > div {
+  margin-right: 50px;
+}
