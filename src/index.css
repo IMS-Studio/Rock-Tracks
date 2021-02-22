@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Oxygen", sans-serif;
   background-color: #fafafa;
 }
 
@@ -9,7 +9,7 @@ body {
   background: #f7f7f7;
   flex-direction: column;
   height: 100vh;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 /* Screen: Music Listings */
 .header {
@@ -23,6 +23,7 @@ body {
   position: fixed;
   width: 100%;
   background-color: white;
+  background-color: #00417f;
   border-bottom: 1px solid #dedede;
 }
 
